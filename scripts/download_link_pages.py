@@ -29,7 +29,7 @@ def download_link_pages(url, html_file_name):
  
     # especifica uma condição de espera
     try:
-        wait = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, 'td.visaoQuadrosTd')))
+        wait = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, 'visaoQuadrosTd')))
     except Exception as e:
         print(f"Exceção lançada no arquivo: {html_file_name} : ",e)
     finally: 
