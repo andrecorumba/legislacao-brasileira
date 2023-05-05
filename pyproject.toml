@@ -12,6 +12,7 @@ bs4 = "^0.0.1"
 selenium = "^4.9.0"
 scrapy = "^2.8.0"
 backports-lzma = "^0.0.14"
+html5lib = "^1.1"
 
 
 [tool.poetry.group.dev.dependencies]

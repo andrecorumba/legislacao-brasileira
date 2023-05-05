@@ -12,7 +12,7 @@ def link_pages_leis_complementares():
 
     url = 'http://www4.planalto.gov.br/legislacao/portal-legis/legislacao-1/leis-complementares-1/todas-as-leis-complementares-1'
 
-    html_file_name = f'links_leis_complementares_ate_abril_2023.html'
+    html_file_name = f'links_leis_complementares.html'
 
     download_link_pages(url,os.path.join(folder, html_file_name) )
 
